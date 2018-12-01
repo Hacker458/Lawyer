@@ -4,7 +4,8 @@ body
 	color: white;
 	transition: 0.6s ease;
 	text-shadow: 3px 3px 5px black;
-	font-family: "Bitter", sans-serif;
+	font-family: "PT Sans Narrow";
+
 }
 a
 {
@@ -45,6 +46,7 @@ main
 	float: right;
 	font-size: 1vw;
 	padding-top: 2vw;
+	font-family: "Bitter";
 }
 .Button
 {
@@ -64,16 +66,24 @@ main
 	position: relative;
 	text-align: center;
 	width: inherit;
-	top: 6vw;
+	top: 10vw;
 }
 .Laywer #b1
 {
-	font-size: 2vw;
+	font-size: 3vw;
 }
-
+.Laywer #b1:hover
+{
+	cursor: pointer;
+}
+.Laywer #b1,
 .Laywer #b2
 {
-	font-size: 3.2vw;
+	color: #DCC8A4;
+}
+.Laywer #b2
+{
+	font-size: 4vw;
 	padding-bottom: 10px;
 }
 .Laywer #b2:hover
@@ -85,6 +95,18 @@ main
 }
 #Comment
 {
-	background: red;
+	position: relative;
+	top: 20vw;
+	text-align: center;
+	font-size: 3.5vw;
+	word-spacing: 0.5vw;
+	font-style: italic;
+	quotes: "\201c" "\201d";
+}
+#Services
+{
 	position: absolute;
+	height: 150px;
+	width: 100px;
+	background: red;
 }
