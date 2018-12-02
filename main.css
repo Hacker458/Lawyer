@@ -2,6 +2,7 @@ body
 {
 	margin: 0;
 	color: white;
+	background: #F8F8FF;
 	transition: 0.6s ease;
 	text-shadow: 3px 3px 5px black;
 	font-family: "PT Sans Narrow";
@@ -35,7 +36,7 @@ header img:hover
 main
 {
 	max-height: 1500px;
-	height: 1400px;
+	height: 65vw;
 	background: url("Фото/Фон.jpg") no-repeat;
 	background-size: 100% auto;
 }
@@ -66,7 +67,7 @@ main
 	position: relative;
 	text-align: center;
 	width: inherit;
-	top: 10vw;
+	top: 6vw;
 }
 .Laywer #b1
 {
@@ -88,25 +89,101 @@ main
 }
 .Laywer #b2:hover
 {
-	color: olive;
 	cursor: pointer;
 	border-bottom: 3px solid black;
-
+}
+address
+{
+	position: relative;
+	top: 5vw;
+	font-size: 3vw;
+	font-family: "Bitter";
 }
 #Comment
 {
 	position: relative;
 	top: 20vw;
 	text-align: center;
-	font-size: 3.5vw;
+	font-size: 3vw;
 	word-spacing: 0.5vw;
 	font-style: italic;
 	quotes: "\201c" "\201d";
 }
 #Services
 {
-	position: absolute;
-	height: 150px;
-	width: 100px;
-	background: red;
+	position: relative;
+	height: 1000px;
+	top: 5vw;
+}
+#Serv
+{
+	text-align: center;
+	display: block;
+	color: #6e8697;
+	font-size: 5vw;
+	text-shadow: 1px 4px 2px black;
+}
+.Border
+{
+	width: 30vw;
+	border: 1px solid #e0dede;
+	top: 4vw;
+	position: relative;
+}
+.LeftBorder
+{
+	left: 1vw;
+}
+.RightBorder
+{
+	left: 67vw;
+}
+#ListServ
+{
+	top: 2vw;
+	position: relative;
+	height: 90vw;
+	background: gray;
+	margin: 0 auto;
+}
+#L1
+{
+	display: flex;
+}
+figure[class="Photo"] img
+{
+	border-radius: 25px;
+	position: relative;
+	bottom: 5px;
+	width: 100%;
+}
+figcaption
+{
+	text-align: center;
+	font-size: 2vw;
+	color: #353b49;
+	text-shadow: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+.quest
+{
+	font-size: 2vw;
+}
+.Tab
+{
+	top: 1vw;
+	position: relative;
+	margin-left: 6vw;
+	width: 25vw;
+}
+.Tab li
+{
+	font-size: 1.8vw;
+	line-height: 3.5vw;
+}
+#L2
+{
+	position: relative;
+	display: flex;
 }
