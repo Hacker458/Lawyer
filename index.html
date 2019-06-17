@@ -1,171 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Главная</title>
 	<link rel="stylesheet" href="main.css">
 	<meta name="viewport" content="width-device-width" initial-scale="1">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-<body>
-<header>
-		<img src="Фото/Logo.png" alt="">
-<div id="Buttons">
-		<div class="Button">
-			<a href="#">
-				<b>Услуги</b>
-			</a>
-		</div>
-		<div class="Button">
-			<a href="">
-			<b>Контакты</b>
-			</a>
-		</div>
-		<div class="Button">
-			<a href="">
-			<b>Консультации</b>
-			</a>
-		</div>
-</div>
-</header>
-	<main>
-		<br>
-		<div class="Laywer">
-		<b id="b1">Адвокат</b>
-		<br><br>
-		<b id="b2">
-		Завгородний Александр Сергеевич</b>	
-		<address>
-			<b>тел. +380955787963<br>  тел. +380983322141</b>
-		</address>
-		</div>
-		
-		<div id="Comment">
-			<q>
-			Своевременное обращение к адвокату <br>- залог успешного решения Вашей проблемы
-			</q>
-		</div>
-	</main>
 
-	<div id=Services>
-		<div class="LeftBorder Border"></div>
-		<div class="RightBorder Border"></div>
-	<b id="Serv">Услуги адвоката</b>
-	<div id="ListServ">
-		<div id="L1">
-		<div id="List1">
-			<table class="Tab">
-			<tr>
-				<td>
-					<figure class="Photo">
-						<img src="Фото/Consultation.jpg" alt="">
-						<figcaption>Консультации</figcaption>
-					</figure>
-					<ul>
-						<b class="quest">Вопросы:</b>
-						<li>Семейного</li>
-						<li>Трудового</li>
-						<li>Жилищного</li>
-						<li>Наследственного</li>
-						<li>Уголовного</li>
-						<li>Гражданского права</li>
-					</ul>
-				</td>		
-			</table>
-		</div>
-		<div id="List2">
-			<table class="Tab">
-			<tr>
-				<td>
-					<figure class="Photo">
-						<img src="Фото/Court.jpg" alt="">
-						<figcaption>Участие в суде</figcaption>
-					</figure>
-					<ul>
-						<b class="quest">Представление интересов:</b>
-						<li>Суды общей юрисдикции</li>
-						<li>Арбитражные суды</li>
-						<li>Апелляционные суды</li>
-						<li>Кассационные суды</li>
-						<li>Европейские суды по правам <br> человека</li>
-					</ul>
-				</td>		
-			</table>
-		</div>
-		<div id="List3">
-			<table class="Tab">
-			<tr>
-				<td>
-					<figure class="Photo">
-						<img src="Фото/Documents.jpg" alt="">
-						<figcaption>Документы</figcaption>
-					</figure>
-					<ul>
-						<b class="quest">Грамотное составление:</b>
-						<li>Договоров</li>
-						<li>Претензий</li>
-						<li>Жалоб</li>
-						<li>Соглашений</li>
-						<li>Исковых заявлений</li>
-						<li>Процессуальных документов</li>
-					</ul>
-				</td>		
-			</table>
+<body>
+	<header>
+		<div id='background'>
+			<a href="#">
+				<img src="Photo/Logo.png" alt="Logo">
+			</a>
+			<div class="logo-text">
+				<h1>Юридические услуги</h1>
+			</div>
+			<div class="lawyer">
+				<b id="b2">Завгородний Александр</b>
+			</div>
+			<div class="address">
+				<p><i class="material-icons">phone_android</i>тел:. (095) 578 79 63</p>
+				<p><i class="material-icons">phone_iphone</i>тел:. (098) 332 21 41</p>
+			</div>
+	</header>
+	<div id="menu-nav">
+		<div class="icon-bar">
+			<a class="active" href="#"><b>Главная</b></a>
+			<div class="dropdown">
+				<a class="dropbtn" href="#"><b>Услуги</b></a>
+				<ul class="dropdown-content">
+					<li><a href="services.html"><span>Юридические услуги</span></a></li>
+					<li><a href="lawyer.html"><span>Услуги адвоката</span></a></li>
+					<li><a href="jurist.html"><span>Услуги юриста</span></a></li>
+				</ul>
+			</div>
+			<div class="dropdown">
+				<a class="dropbtn" href="#"><b>Юр.лица</b></a>
+				<ul class="dropdown-content">
+					<li><a href="#"><span>Юридические услуги</span></a></li>
+					<li><a href="#"><span>Услуги адвоката</span></a></li>
+					<li><a href="#"><span>Услуги юриста</span></a></li>
+				</ul>
+			</div>
+			<div class="dropdown">
+				<a class="dropbtn" href="#"><b>Физ.лица</b></a>
+				<ul class="dropdown-content">
+					<li><a href="#"><span>Гражданское право</span></a></li>
+				</ul>
+			</div>
+			<a class="last" href="contact.html"><b>Контакты</b></a>
 		</div>
 	</div>
-		<!--Second Step -->
-	<div id="L2">
-		<div id="List4">
-			<table class="Tab">
-			<tr>
-				<td>
-					<figure class="Photo">
-						<img src="Фото/Civil.jpg"  alt="">
-						<figcaption>Гражданские споры</figcaption>
-					</figure>
-					<ul>
-						<li>Досудебное урегулирование</li>
-						<li>Представительство в суде</li>
-						<li>Представительство в гос.органах</li>
-						<li>Исполнительное производство</li>
-					</ul>
-				</td>		
-			</table>
-		</div>
-		<div id="List5">
-			<table class="Tab">
-			<tr>
-				<td>
-					<figure class="Photo">
-						<img src="Фото/Criminal.jpg"  alt="">
-						<figcaption>Уголовные дела</figcaption>
-					</figure>
-					<ul>
-						<li>Защита подозреваемого, обвиняемого, подсудимого</li>
-						<li>Представление интересов потерпевшего</li>
-						<li>Защита прав свидетелей</li>
-					</ul>
-				</td>		
-			</table>
-		</div>
-		<div id="List6">
-			<table class="Tab">
-			<tr>
-				<td>
-					<figure class="Photo">
-						<img src="Фото/Arbitration.jpg"  alt="">
-						<figcaption>Арбитраж</figcaption>
-					</figure>
-					<ul>
-						<li>Взыскание дебиторской задолженности</li>
-						<li>Исполнительное производство</li>
-						<li>Представление интересов организаций</li>
-					</ul>
-				</td>		
-			</table>
-		</div>
 	</div>
-</div>
-</div>
+	<div class="content">
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<div class="comment">
+					<q>
+						Своевременное обращение к адвокату - залог успешного решения Вашей проблемы
+					</q>
+				</div>
+				<img src="Photo/slide2.jpg">
+			</div>
+			<div class="mySlides fade">
+				<div class="comment">
+					<q>Хороший адвокат любой судебный процесс обратит из воспалительного в воспитательный</q>
+				</div>
+				<img src="Photo/slide1.jpg">
+			</div>
+			<div class="mySlides fade">
+				<img src="Photo/slide3.jpg">
+				<div class="comment">
+					<q>Без хорошего адвоката любое правовое поле - минное.</q>
+				</div>
+			</div>
+
+			<div class="mySlides fade">
+				<img src="Photo/slide4.jpg">
+				<div class="comment">
+					<q>Адвокат - это юрист, способный законно нас защищать от закона</q>
+				</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			<div class="btn-slide">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+			</div>
+		</div>
+		<br>
+
+		<main>
+			<img class="photo-small" src="Photo/femida.jpg" alt="" style="float:right">
+			<p class="letter">
+				Как и любая другая отрасль социальной инфраструктуры, законодательное право не стоит на месте, стремительно развиваясь с каждым днем, пополняясь новыми законами и усложняя способы их управления. Нормативно правовые акты также овладевают все
+				большим количеством общественных сфер, начиная с бытовых споров и заканчивая регламентацией деятельности государственных органов власти. Развитие общественных отношений, информатизация и появление новых направлений в бизнесе, собственно, и
+				приводят к подобным преобразованиям по объективным и субъективным причинам.
+			</p><br>
+			<p class="letter">
+				В связи с этим услуги юриста приобретают все большую значимость, а компетентные адвокаты и юристы в этой области, понимающие все тонкости правового законодательства и способные предоставить своим клиентам высококачественные юридические услуги,
+				сегодня и вовсе на вес золота. Именно поэтому каждый человек, столкнувшийся с тем или иным нарушением любых законодательных прав или желающий получить консультацию перед принятием важного решения в разных правовых вопросах, нередко сталкивается
+				с вопросом, к кому обратиться с насущной проблемой, да еще и гарантированно получить квалифицированную помощь.
+			</p>
+			<img class="photo" src="Photo/court-table.jpg" alt="" style="width: 80%; margin: 0 auto; display: block;">
+		</main>
+		<footer>
+			<figure class="footer-icon">
+				<img src="Photo/Logo2.png" alt="">
+			</figure>
+			<span class="copyright">©2019</span>
+		</footer>
+	</div>
+
+		<script src="javascript.js"></script>
 </body>
+
 </html>
